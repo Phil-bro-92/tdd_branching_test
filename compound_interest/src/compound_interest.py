@@ -5,7 +5,7 @@ class CompoundInterest:
         self.interest_rate = interest_rate
     
     def calculate_compound_interest(self,):
-        result = (self.starting_amount * contribution) * (1 + self.interest_rate / 12) ** (self.years * 12)
+        result = (self.starting_amount) * (1 + self.interest_rate / 12) ** (self.years * 12)
         return round(result, 2)
 
 
